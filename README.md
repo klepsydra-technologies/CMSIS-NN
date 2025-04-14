@@ -1,3 +1,15 @@
+### Klepsydra UT coverage
+
+```bash
+mkdir build && cd build/
+cmake ..
+make coverage-html
+```
+
+Then go to the gcovr [report](build/coverage-html/index.html).
+
+---
+
 # CMSIS NN
 CMSIS NN software library is a collection of efficient neural network kernels developed to maximize the
 performance and minimize the memory footprint of neural networks on Arm Cortex-M processors.
